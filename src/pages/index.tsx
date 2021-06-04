@@ -1,8 +1,7 @@
 import { Button, Box } from '@chakra-ui/react';
 import { useMemo } from 'react';
-import { QueryFunction, useInfiniteQuery } from 'react-query';
+import { useInfiniteQuery } from 'react-query';
 
-import { AxiosResponse } from 'axios';
 import { Header } from '../components/Header';
 import { CardList } from '../components/CardList';
 import { api } from '../services/api';
