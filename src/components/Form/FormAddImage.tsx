@@ -66,7 +66,7 @@ export function FormAddImage({ closeModal }: FormAddImageProps): JSX.Element {
   const mutation = useMutation(
     // TODO MUTATION API POST REQUEST,
     async (image: ImageFormData) => {
-      await api.post('/images', image);
+      await api.post('/api/images', image);
     },
     {
       // TODO ONSUCCESS MUTATION
